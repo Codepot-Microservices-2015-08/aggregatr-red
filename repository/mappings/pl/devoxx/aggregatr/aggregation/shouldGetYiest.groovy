@@ -1,4 +1,4 @@
-codepotio.codearte.accurest.dsl.GroovyDsl.make {
+io.codearte.accurest.dsl.GroovyDsl.make {
     request {
         method 'POST'
         url '/ingredients'
