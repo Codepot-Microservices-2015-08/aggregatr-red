@@ -2,6 +2,9 @@
     "red": {
         "this": "pl/codepot/aggregatr-red",
         "dependencies" : {
+            "dojrzewatr": {
+                "path": "pl/codepot/dojrzewatr-red"
+            }
         }
     }
 }
