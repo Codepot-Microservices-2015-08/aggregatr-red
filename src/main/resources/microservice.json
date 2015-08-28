@@ -1,6 +1,6 @@
 {
     "red": {
-        "this": "pl.codepot.aggregatr-red",
+        "this": "pl/codepot/aggregatr-red",
         "dependencies" : {
         }
     }
