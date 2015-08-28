@@ -16,4 +16,11 @@ public class ItemsRequestBody {
     public void setItems(List<String> items) {
         this.items = items;
     }
+
+    @Override
+    public String toString() {
+        return "ItemsRequestBody{" +
+                "items=" + items +
+                '}';
+    }
 }
