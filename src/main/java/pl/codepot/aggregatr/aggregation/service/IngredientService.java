@@ -61,7 +61,7 @@ public class IngredientService {
     public IngredientsResponse getCurrentIngredientsState(List<String> items) {
         IngredientsResponse ingredientsResponse = new IngredientsResponse();
         for (Map.Entry<IngredientType, Integer> ingredient : availableAmounts.entrySet()) {
-            if(items.contains(ingredient.getKey())) {
+            if(items.contains(ingredient.getKey().name())) {
                 ingredientsResponse.addIngredient(new Ingredient(ingredient.getKey().name(), ingredient.getValue()));
             }
         }
